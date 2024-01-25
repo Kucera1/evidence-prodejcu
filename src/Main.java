@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public class Main {
     public static void main(String[] args) {
         String jmenoPrijmeni = "Jaroslav Kučera";
-        BigDecimal datumNarozeniProdejce = BigDecimal.valueOf(1992-9-4);
+        LocalDate.of(1992, 4, 9);
         int pocetDosudSjednanychSmluv = 10;
         int celkoveMnozstviProdaneMrkveVTunach = 50;
         String nazevMestaKdeProdejceSidli = "Praha";
